@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: baumapp-renamed
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    autoDeploy: true

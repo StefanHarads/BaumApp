@@ -1,0 +1,81 @@
+
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <title>Sachverständigenbüro für Baumkontrolle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #d3f4d1;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+        header img {
+            height: 80px;
+            margin: 0.5em;
+        }
+        header h1 {
+            margin: 0.5em 0;
+            font-size: 1.5em;
+            color: #2b7a2b;
+        }
+        main {
+            padding: 1em;
+            max-width: 800px;
+            margin: auto;
+        }
+        .card {
+            background: white;
+            padding: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            margin-top: 1em;
+        }
+        a.button {
+            display: inline-block;
+            margin-top: 1em;
+            padding: 0.75em 1.5em;
+            background: #2b7a2b;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a.button:hover {
+            background: #256b25;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/static/Logo.png" alt="Logo">
+        <h1>Sachverständigenbüro für Baumkontrolle</h1>
+    </header>
+    <main>
+        <div class="card">
+            <h2>Impressum</h2>
+            <p>&copy; Sachverständigenbüro für Baumkontrolle Stefan Nord<br>
+            Langenthalstraße 9 – 76848 Spirkelbach<br>
+            Email: <a href="mailto:info@forstarbeiten.com">info@forstarbeiten.com</a></p>
+
+            <a class="button" href="/login">Zur Anwendung</a>
+        </div>
+    </main>
+</body>
+</html>
